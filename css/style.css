@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+body{
+    height: 100vh;
+    background: url('../bg2.jpeg') no-repeat center center/cover;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 36px;
+}
+
+h1{
+    margin-top: 16px;
+    font-size: 22px;
+    font-family: 'Piazzolla', serif;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 816px;
+    margin: auto;
+    height: 64vh;
+    padding: 2px 0px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: rgb(201, 194, 194);
+    width: 32%;
+    padding: 8px;
+    margin: 16px 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+#send-Msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    max-width: 880px;
+    text-align: center;
+    width: 100%;
+}
+
+#msgInp{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 28px;
+    outline: none;
+    font-size: 16px;
+    font-family: serif;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 28px;
+    height: 28px;
+    width: 64px;
+}
+
+@media only screen and (max-width: 836px){
+    .container{
+        max-width: 488px;
+        height: 54vh;
+    }
+
+    #msgInp {
+        width: 51%;
+    }
+}
